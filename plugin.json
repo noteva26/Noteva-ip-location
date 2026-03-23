@@ -1,0 +1,26 @@
+{
+  "id": "ip-location",
+  "name": "IP 归属地",
+  "version": "1.0.0",
+  "description": "Display commenter's IP location (province/city) next to their name",
+  "author": "Noteva Team",
+  "license": "MIT",
+  "requires": {
+    "noteva": ">=0.2.0"
+  },
+  "hooks": {
+    "frontend": [
+      "content_render"
+    ],
+    "backend": [
+      "comment_after_create"
+    ]
+  },
+  "permissions": [
+    "network",
+    "storage"
+  ],
+  "settings": true,
+  "database": false,
+  "api": true
+}

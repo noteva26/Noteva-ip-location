@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "key": "api_url",
+      "label": "IP API URL",
+      "type": "text",
+      "default": "http://ip-api.com/json/{ip}?fields=status,regionName,city&lang={lang}",
+      "description": "IP geolocation API. Use {ip} for IP address, {lang} for language (zh-CN/en)"
+    },
+    {
+      "key": "display_level",
+      "label": "Display Level",
+      "type": "select",
+      "options": ["province", "city"],
+      "default": "province",
+      "description": "province = 广东 / Guangdong, city = 广东广州 / Guangdong Guangzhou"
+    },
+    {
+      "key": "enabled",
+      "label": "Enable",
+      "type": "toggle",
+      "default": true
+    }
+  ]
+}
