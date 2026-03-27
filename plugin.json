@@ -1,7 +1,7 @@
 {
   "id": "ip-location",
   "name": "IP 归属地",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Display commenter's IP location (province/city) next to their name",
   "author": "Noteva Team",
   "license": "MIT",
